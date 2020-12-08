@@ -1,0 +1,1 @@
+This is the capstone project to the codecademy pathway Build a Website. I use html, css, the command line, git, github and github pages to build a website for a made-up school called Colmar Academy and deploy said website.
