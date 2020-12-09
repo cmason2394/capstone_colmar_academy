@@ -14,6 +14,10 @@ html {
     margin: 2rem 1.5rem;
 }
 
+.background-color {
+    background-color: darkgray;
+}
+
 /* header section */
 
 header {
@@ -56,7 +60,6 @@ main {
 .intro {
     display: flex;
     align-items: center;
-    padding: 2rem 1.5rem;
     background-color: darkgrey;
 }
 
