@@ -97,12 +97,59 @@ intro .container p, .button, h2 {
 
 .info {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.info .quote {
-    margin: 2rem 1.5rem
+.quote {
+    width: 60%;
+    overflow: hidden;
+    padding-right: 1.5rem;
 }
+
+.quote img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.events-container {
+    width: 40%;
+}
+
+.mobile {
+    display: none;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    border: solid gray 1px;
+}
+
+.event figure {
+    width: 35%;
+    overflow: hidden;
+    height: 100%;
+    margin: 1rem;
+}
+
+.event .desktop {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.event .text {
+    width: 65%
+}
+
+.event .text * {
+    margin-bottom: 0.5rem;
+}
+
+
+
+
 
 
 
