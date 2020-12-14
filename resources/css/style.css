@@ -18,6 +18,11 @@ html {
     background-color: darkgray;
 }
 
+h2 {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
 /* header section */
 
 header {
@@ -93,7 +98,7 @@ intro .container p, .button, h2 {
     text-decoration: none;
 }
 
-/* second section */
+/* second section, information */
 
 .info {
     display: flex;
@@ -147,6 +152,53 @@ intro .container p, .button, h2 {
     margin-bottom: 0.5rem;
 }
 
+/* 3rd section, majors */
+
+.majors-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.major {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+    background-color: white;
+    padding-bottom: 1.5rem;
+    width: 30%;
+    min-height: 20rem;
+}
+
+.major figure {
+    max-width: 33.25rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.major img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.major h3 {
+    padding: 1rem;
+}
+
+.courses {
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.classes {
+    text-transform: capitalize;
+    padding: 0 1rem;
+}
 
 
 
