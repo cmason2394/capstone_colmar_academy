@@ -86,7 +86,7 @@ main {
     justify-content: space-around;
 }
 
-intro .container p, .button, h2 {
+intro .container p, .button {
     margin: 1.5rem 0;
 }
 
@@ -98,26 +98,27 @@ intro .container p, .button, h2 {
     text-decoration: none;
 }
 
-/* second section, information */
+/* second section, information, and 4th section, theses */
 
-.info {
+.exhibit {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1rem;
 }
 
-.quote {
+.left {
     width: 60%;
     overflow: hidden;
     padding-right: 1.5rem;
 }
 
-.quote img {
+.left img, .left video {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-.events-container {
+.right-container {
     width: 40%;
 }
 
@@ -125,30 +126,30 @@ intro .container p, .button, h2 {
     display: none;
 }
 
-.event {
+.box {
     display: flex;
     align-items: center;
-    border: solid gray 1px;
+    border: solid darkgray 1px;
 }
 
-.event figure {
+.box figure {
     width: 35%;
     overflow: hidden;
     height: 100%;
     margin: 1rem;
 }
 
-.event .desktop {
+.box .desktop {
     max-width: 100%;
     display: block;
     height: auto;
 }
 
-.event .text {
-    width: 65%
+.box .text {
+    width: 65%;
 }
 
-.event .text * {
+.box .text * {
     margin-bottom: 0.5rem;
 }
 
@@ -198,6 +199,13 @@ intro .container p, .button, h2 {
 .classes {
     text-transform: capitalize;
     padding: 0 1rem;
+}
+
+/* 4th section, theses. Details not covered in 2nd section. */
+
+.left h3 {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 

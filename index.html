@@ -40,8 +40,8 @@
                 <a class="button" href="#button">Start here</a>
             </div>
         </section>
-        <section class="info container">
-            <div class="quote">
+        <section class="exhibit container">
+            <div class="left">
                 <figure>
                     <img src="./resources/assets/images/information-main.jpg" alt="student reading">
                 </figure>
@@ -53,8 +53,8 @@
                 </p>
                 <p class="author">Emanuel, Sr Strategist at Hiring.com</p>
             </div>
-            <div class="events-container">
-                <div class="event">
+            <div class="right-container">
+                <div class="box">
                     <figure>
                         <img class="desktop" src="./resources/assets/images/information-orientation.jpg" alt="students walking">
                         <img class="mobile" src="./resources/assets/images/information-orientation-mobile.jpg" alt="students walking">
@@ -65,7 +65,7 @@
                         <a href="#Orientation">Read More</a>
                     </div>
                 </div>
-                <div class="event">
+                <div class="box">
                     <figure>
                         <img class="desktop" src="./resources/assets/images/information-campus.jpg" alt="campus study room">
                         <img class="mobile" src="./resources/assets/images/information-campus-mobile.jpg" alt="campus study room">
@@ -76,7 +76,7 @@
                         <a href="#location">Read More</a>
                     </div>
                 </div>
-                <div class="event background-color">
+                <div class="box background-color">
                     <figure>
                         <img class="desktop" src="./resources/assets/images/information-guest-lecture.jpg" alt="Oliver Sack">
                         <img class="mobile" src="./resources/assets/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack">
@@ -143,13 +143,15 @@
                 </div>
             </div>
         </section>
-        <section class="thesis container">
+        <section class="container">
             <h2>Thesis exhibit</h2>
-            <div class="container">
-                <div class="thesis video">
-                    <video src="./resources/assets/videos/thesis.mp4"></video>
-                </div>
-                <div class="thesis urban">
+            <div class="exhibit">
+                <div class="left">
+                    <video controls>
+                        <source src="./resources/assets/videos/thesis.mp4"
+                        alt="time-warp of a day in the life of a building"
+                        type="video/mp4">
+                    </video>
                     <h3>Reimagine urban</h3>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat.
                         Aliquam et commodo lectus, nec consequat neque.
@@ -158,19 +160,25 @@
                         Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
                     </p>
                 </div>
-                <div class="thesis fisma background-color">
-                    <h3>Fisma: Design and Prototype</h3>
-                    <p>Designer showcase of new prototype product</p>
-                    <figure>
-                        <img src="./resources/assets/images/thesis-fisma.jpg" alt="person writing a design sketch">
-                    </figure>
-                </div>
-                <div class="thesis new-york">
-                    <h3>Now and then</h3>
-                    <p>Research study about New York</p>
-                    <figure>
-                        <img src="./resources/assets/images/thesis-now-and-then.jpg" alt="">
-                    </figure>
+                <div class="right-container">
+                    <div class="box background-color">
+                        <figure>
+                            <img class="desktop" src="./resources/assets/images/thesis-fisma.jpg" alt="person writing a design sketch">
+                        </figure>
+                        <div class="text">
+                            <h3>Fisma: Design and Prototype</h3>
+                            <p>Designer showcase of new prototype product</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <figure>
+                            <img class="desktop" src="./resources/assets/images/thesis-now-and-then.jpg" alt="New York skyline">
+                        </figure>
+                        <div class="text">
+                            <h3>Now and then</h3>
+                            <p>Research study about New York</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
