@@ -50,7 +50,7 @@ header.logo {
     width: auto;
 }
 
-header nav li {
+header nav li, footer nav li {
     display: inline;
     margin-left: 1rem;
 }
@@ -206,6 +206,21 @@ intro .container p, .button {
 .left h3 {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    top: 4rem;
+    height: 4rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+    display: inline-block;
 }
 
 
