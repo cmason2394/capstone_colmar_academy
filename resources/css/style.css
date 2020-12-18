@@ -9,6 +9,7 @@
 
 html {
     font-size: 16px;
+    font-family: 'oswald', sans-serif;
 }
 
 .container {
@@ -22,6 +23,16 @@ html {
 h2 {
     margin: 1.5rem 0;
     text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.1rem;
 }
 
 a {
@@ -37,10 +48,14 @@ header {
     position: fixed;
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.95);
-    width: 95%; /*Why do the sides go off the page when I have a margin of 1.5rem on the sides? Why do I need this width: 95% thing? and why does the right margin get smaller but the left one doesn't?*/
+    width: 100%; /*Why do the sides go off the page when I have a margin of 1.5rem on the sides? Why do I need this width: 95% thing? and why does the right margin get smaller but the left one doesn't?*/
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.icon-navbar {
+    margin-left: 1.5rem;
 }
 
 header.logo, header h1 {
@@ -49,25 +64,22 @@ header.logo, header h1 {
 
 header h1 {
     text-transform: uppercase;
-}
-
-#name {
-    font-weight: bold;
+    font-size: 2.5rem;
 }
 
 #school {
     color: rgb(187, 223, 223);
-    font-weight: lighter;
-}
-
-header.logo {
-    height: 2rem;
-    width: auto;
+    font-weight: 300;
+    letter-spacing: 0.33rem;
 }
 
 header nav li, footer nav li {
     display: inline;
     margin-left: 1rem;
+}
+
+nav {
+    margin-right: 1.5rem;
 }
 
 main {
@@ -109,6 +121,7 @@ intro .container p, .button {
     background-color: rgb(12, 62, 82);
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 /* second section, information, and 4th section, theses */
@@ -129,6 +142,12 @@ intro .container p, .button {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.left .quote {
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    padding-bottom: 1rem;
 }
 
 .right-container {
@@ -300,6 +319,7 @@ footer nav {
     .box {
         display: initial;
         border: none;
+        padding-right: 0;
     }
     
     .box figure {
