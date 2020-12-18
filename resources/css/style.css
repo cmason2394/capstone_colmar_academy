@@ -252,7 +252,7 @@ footer nav {
         width: 100%;
     }
 
-    /* intro section, first section, media query*/
+    /* intro, first section, media query*/
 
     .intro {
         padding: 0;
@@ -312,7 +312,7 @@ footer nav {
         padding-bottom: 0;
     }
 
-    /* majors part, 3rd section, media query */
+    /* majors, 3rd section, media query */
 
     .majors-container {
         display: contents;
@@ -332,6 +332,17 @@ footer nav {
 
     h2 {
         margin: 0 0 1rem 0;
+    }
+
+    /* thesis exhibit, 4th section, media query */
+
+    .exhibit .left {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .thesis {
+        padding: 2rem 0 1.5rem 0;
     }
 }
 
