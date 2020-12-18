@@ -65,7 +65,6 @@ main {
 .intro {
     display: flex;
     align-items: center;
-    background-color: darkgrey;
 }
 
 .intro figure {
@@ -242,11 +241,7 @@ footer nav {
     }
 
     .container {
-        margin: 2rem 1rem;
-    }
-
-    main figure {
-        width: 100%;
+        padding: 2rem 1rem;
     }
 
     /* header section */
@@ -260,13 +255,16 @@ footer nav {
     /* intro section, first section */
 
     .intro {
-        margin: 0;
-        margin-bottom: 2rem;
+        padding: 0;
         display: initial;
     }
 
+    .intro figure {
+        width: 100%;
+    }
+
     .intro .container {
-        padding: 0 1rem 0 1rem;
+        padding: 0 1rem 0.5rem 1rem;
     }
 
     .intro h2 {
