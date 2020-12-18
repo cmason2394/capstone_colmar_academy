@@ -256,7 +256,7 @@ footer nav {
 
     .intro {
         padding: 0;
-        display: initial;
+        display: contents;
     }
 
     .intro figure {
@@ -269,6 +269,7 @@ footer nav {
 
     .intro h2 {
         text-align: left;
+        margin: 2rem 0;
     }
 
     /* Information container, second section, media query section */
@@ -310,7 +311,33 @@ footer nav {
     .box .lecture {
         padding-bottom: 0;
     }
+
+    /* majors part, 3rd section, media query */
+
+    .majors-container {
+        display: contents;
+    }
+
+    .major {
+        width: 100%;
+        min-height: auto;
+        margin: 0.5rem 0;
+        padding-bottom: 0.5rem;
+        background-color: darkgray;
+    }
+
+    .academics {
+        background-color: white;
+    }
+
+    h2 {
+        margin: 0 0 1rem 0;
+    }
 }
+
+
+
+
 
 
 
