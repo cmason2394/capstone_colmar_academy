@@ -223,6 +223,57 @@ footer nav {
     display: inline-block;
 }
 
+/* mobile media query */
+
+@media only screen and (max-width: 721px) {
+    
+    /* overall styling */
+    
+    body {
+        max-width: 721px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: initial;
+    }
+
+    .container {
+        margin: 2rem 1rem;
+    }
+
+    main figure {
+        width: 100%;
+    }
+
+    /* header section */
+
+    .icon-navbar {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    /* intro section, first section */
+
+    .intro {
+        margin: 0;
+        margin-bottom: 2rem;
+        display: initial;
+    }
+
+    .intro .container {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .intro h2 {
+        text-align: left;
+    }
+}
+
 
 
 
