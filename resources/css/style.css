@@ -344,6 +344,12 @@ footer nav {
     .thesis {
         padding: 2rem 0 1.5rem 0;
     }
+
+    /* footer media query */
+
+    footer span {
+        margin: auto;
+    }
 }
 
 
