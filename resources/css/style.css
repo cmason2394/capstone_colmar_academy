@@ -134,7 +134,7 @@ intro .container p, .button {
 .box figure {
     width: 35%;
     overflow: hidden;
-    height: 100%;
+    height: auto;
     margin: 1rem;
 }
 
@@ -226,7 +226,7 @@ footer nav {
 
 @media only screen and (max-width: 721px) {
     
-    /* overall styling */
+    /* overall styling of media query*/
     
     body {
         max-width: 721px;
@@ -244,7 +244,7 @@ footer nav {
         padding: 2rem 1rem;
     }
 
-    /* header section */
+    /* header section media query*/
 
     .icon-navbar {
         display: flex;
@@ -252,7 +252,7 @@ footer nav {
         width: 100%;
     }
 
-    /* intro section, first section */
+    /* intro section, first section, media query*/
 
     .intro {
         padding: 0;
@@ -269,6 +269,46 @@ footer nav {
 
     .intro h2 {
         text-align: left;
+    }
+
+    /* Information container, second section, media query section */
+
+    .exhibit {
+        padding-top: 0;
+    }
+    
+    .exhibit .right-container {
+        width: 100%;
+    }
+
+    .box {
+        display: initial;
+        border: none;
+    }
+    
+    .box figure {
+        width: 100%;
+        padding: 1rem 0 1rem 0;
+        margin: auto;
+    }
+    
+    .box .mobile {
+        max-width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .box .desktop {
+        display: none;
+    }
+
+    .box .text {
+        padding: 1rem 1rem 3rem 1rem;
+        width: 100%;
+    }
+
+    .box .lecture {
+        padding-bottom: 0;
     }
 }
 
